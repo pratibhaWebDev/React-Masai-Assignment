@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+.card {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  width: 120px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.pagination {
+  margin-top: 20px;
+}
+button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #ddd;
+  cursor: pointer;
+}
+button.active {
+  background: #007bff;
+  color: white;
+}
